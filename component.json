@@ -1,0 +1,23 @@
+{
+  "name": "mixin",
+  "repository": "http://github.com/polyvitamins/extend",
+  "description": "Makes first char upper",
+  "version": "0.0.1",
+  "keywords": ["first","upper"],
+  "main": [
+    "dist/extend.js"
+  ],
+  "dependencies": {
+    "polyvitamins/mixin": "master"
+  },
+  "scripts": [
+    "src/extend.js"
+  ],
+  "license": "MIT",
+  "remotes": [
+    "github"
+  ],
+  "tags": [
+    "amd"
+  ]
+}
