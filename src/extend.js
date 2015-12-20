@@ -1,5 +1,5 @@
 /* Протестировано */
-define(function() {
+
 	/* Extend function (modified with pseudo Reference) */
 	var hasOwn = Object.prototype.hasOwnProperty;
 	var toStr = Object.prototype.toString;
@@ -34,7 +34,7 @@ define(function() {
 		return typeof key === 'undefined' || hasOwn.call(obj, key);
 	};
 
-	return function extend() {
+	var extend = function() {
 		'use strict';
 
 		var options, name, src, copy, copyIsArray, clone,
@@ -91,4 +91,5 @@ define(function() {
 		// Return the modified object
 		return target;
 	};
-});
+
+	module.exports = extend;
