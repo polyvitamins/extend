@@ -1,5 +1,5 @@
 {
-  "name": "polyvitamins.extend",
+  "name": "extend",
   "version": "1.0.0",
   "description": "Classic extend function",
   "main": "src/extend.js",
